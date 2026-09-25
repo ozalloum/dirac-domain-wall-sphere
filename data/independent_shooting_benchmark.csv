@@ -1,0 +1,5 @@
+epsilon,nu,profile,galerkin_eigenvalue,shooting_eigenvalue,absolute_difference,relative_difference,shooting_cutoff_delta_theta,cutoff_shift_1e-4_vs_1e-5,basis_size_per_component,quadrature_order,shooting_integrator,shooting_rtol,shooting_atol
+0.1,0.5,cos(theta),-0.051376530327727,-0.051376530327731,3.31679129e-15,6.45584913e-14,1e-5,2.22044605e-16,112,1000,DOP853,2e-12,2e-14
+0.05,0.5,cos(theta),-0.025327134356028,-0.025327134356029,9.15933995e-16,3.61641385e-14,1e-5,6.24500451e-17,112,1000,DOP853,2e-12,2e-14
+0.02,0.5,cos(theta),-0.010050898296087,-0.010050898296087,4.47558657e-16,4.45292195e-14,1e-5,1.73472348e-16,112,1000,DOP853,2e-12,2e-14
+0.01,0.5,cos(theta),-0.0050126108055758,-0.0050126108055761,3.13984949e-16,6.26390042e-14,1e-5,5.20417043e-18,112,1000,DOP853,2e-12,2e-14
