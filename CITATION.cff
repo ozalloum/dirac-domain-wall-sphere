@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this computational package, please cite the accompanying manuscript."
+title: "A pole-regular Jacobi-Galerkin solver for Dirac domain-wall spectra on the sphere"
+version: 1.1.0
+repository-code: "https://github.com/ozalloum/dirac-domain-wall-sphere"
+date-released: 2026-09-25
+authors:
+  - family-names: Zalloum
+    given-names: Othman H. Y.
+    orcid: "https://orcid.org/0000-0001-7282-1332"
+keywords:
+  - Dirac operator
+  - domain walls
+  - sphere
+  - Jacobi-Galerkin method
+  - computational physics

@@ -1,0 +1,66 @@
+{
+  "study": "Pole-regular Jacobi-Galerkin simulations for axial Dirac domain walls on S^2",
+  "dimensionless_parameters": {
+    "R": 1.0,
+    "mu": 1.0
+  },
+  "main_basis_per_component": 112,
+  "main_quadrature_order": 1000,
+  "max_exact_massless_spectrum_error": 4.88498131e-15,
+  "max_exact_constant_mass_spectrum_error": 3.10862447e-15,
+  "max_discrete_spectral_pairing_error": 2.13162821e-14,
+  "independent_shooting_benchmark": {
+    "max_abs_galerkin_shooting_difference": 3.31679129e-15,
+    "max_abs_shooting_cutoff_shift": 2.22044605e-16,
+    "epsilon_values": [
+      0.1,
+      0.05,
+      0.02,
+      0.01
+    ],
+    "nu": 0.5,
+    "basis_size_per_component": 112,
+    "quadrature_order": 1000
+  },
+  "solver_cost_benchmark": {
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "visible_cpu_count": 9,
+    "blas": "openblas",
+    "blas_threads_timed": 1,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "repeats_per_basis_size": 7,
+    "basis_sizes_per_component": [
+      28,
+      56,
+      112,
+      140
+    ],
+    "quadrature_order": 1000,
+    "complex_dense_matrix_memory_scaling": "16*(2N)^2 bytes = O(N^2)",
+    "dense_hermitian_eigensolve_scaling": "O((2N)^3) = O(N^3)"
+  },
+  "simulation_parameter_epsilon": [
+    0.1,
+    0.08,
+    0.06,
+    0.04,
+    0.03,
+    0.02,
+    0.015,
+    0.01
+  ],
+  "excited_branch_epsilon": [
+    0.08,
+    0.04,
+    0.02,
+    0.01,
+    0.005
+  ],
+  "profiles": {
+    "single_wall": "m(theta)=mu*cos(theta)",
+    "two_wall": "m(theta)=mu*cos(2 theta)"
+  },
+  "note": "Exponential tunneling-scale eigenvalue splitting is not claimed to be resolved."
+}
