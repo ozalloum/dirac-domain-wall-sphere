@@ -43,4 +43,4 @@ The CSV tables and scripts in this repository are the numerical data and softwar
 
 ## Citation and license
 
-Citation metadata are provided in `CITATION.cff`. No software or data reuse license is included in this initial repository draft; please contact the author regarding reuse until a license is added.
+Citation metadata are provided in `CITATION.cff`. No license is included. The repository is public for inspection and reproduction, but no permission to reuse, modify, or redistribute the code or data is granted; contact the author to request permission.
